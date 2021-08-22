@@ -1,0 +1,21 @@
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    margin: 20px 0px 0px 20px;
+    width:1400px;
+    height: 400px;
+}
+table th, table td{
+    border: solid .5px ;
+    border-color: #ddd;
+    font-size: 25px;
+    padding: 10px;
+}
+ tbody tr:nth-child(2n+1){
+    background-color: #f2f2f2e3;
+}
+ thead tr th{
+    background-color: #406e41;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
