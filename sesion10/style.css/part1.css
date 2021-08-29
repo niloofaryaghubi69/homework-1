@@ -1,0 +1,40 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 960px;
+    margin:0 auto;
+    background-color: #666565;
+    margin-top: 10px;
+}
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.red{
+    background-color: red;
+    width: 20%;
+    height: 120px;
+    margin: 20px;
+    float: left;
+}
+.blue{
+    background-color: blue;
+    width: 20%;
+    height: 240px;
+    margin: 20px;
+    float: left;
+}
+.yeloow{
+    background-color: yellow;
+    width: 20%;
+    height: 120px;
+    margin: 20px;
+    float: left;
+}
+
+
