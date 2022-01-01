@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* color */
+.menu {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
+.menu li {
+  padding: .7rem;
+}
+
+.menu li a {
+  color: white !important;
+}
+
+.btn-rounded {
+  padding: 0.9375rem 4.35rem 0.9375rem 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: white;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-rounded span {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #31d35c;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.btn-rounded span i {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.btn-rounded:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: white;
+}
+
+.intro {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 10rem 0 0 0;
+}
+
+.display-3 {
+  margin-bottom: 1rem;
+}
+
+.display-3--title {
+  display: block;
+  font-weight: 700;
+}
+
+.display-3--description {
+  font-size: 1.5rem;
+  display: block;
+  color: white;
+  margin-top: 1.2rem;
+}
+
+.intro-end {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
+.intro-end h3 {
+  color: white;
+}
+
+.heading-line {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: -30px;
+  display: block;
+  width: 150px;
+  height: 1.5px;
+  background-color: white;
+}

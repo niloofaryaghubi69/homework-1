@@ -1,0 +1,76 @@
+.menu{
+    @include gradient;
+
+    li{
+        padding: .7rem;
+
+        a{
+            color: $white !important;
+        }
+    }
+}
+
+.btn-rounded{
+    padding: 0.9375rem 4.35rem 0.9375rem 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    border: .1rem solid rgba($white, .6);
+    background-color: $white;
+    position: relative;
+    transition: all .3s;
+    span{
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        background-color: $lime-green;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        i{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            line-height: 2.5rem;
+        }
+    }
+    &:hover{
+        @include gradient;
+        color: $white;
+    }
+}
+.intro{
+    @include gradient;
+    padding: 10rem 0 0 0;
+}
+.display-3{
+    margin-bottom: 1rem;
+    &--title{
+        display: block;
+        font-weight: 700;
+    }
+
+    &--description{
+        font-size: 1.5rem;
+        display: block;
+        color:  $white;
+        margin-top: 1.2rem;
+    }
+}
+.intro-end{
+    @include gradient;
+    h3{
+        color: $white;
+    }
+}
+.heading-line{
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: -30px;
+    display: block;
+ 
+    width: 150px;
+    height: 1.5px;
+    background-color:$white;
+}
