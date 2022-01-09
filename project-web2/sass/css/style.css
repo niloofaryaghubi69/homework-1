@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+/* color */
+.menu {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
+.menu li {
+  padding: .7rem;
+}
+
+.menu li a {
+  color: white !important;
+}
+
+.btn-rounded {
+  padding: 0.9375rem 4.35rem 0.9375rem 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: white;
+  position: relative;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-rounded span {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #31d35c;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.btn-rounded span i {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.btn-rounded:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: white;
+}
+
+.intro {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 9rem 0 0 0;
+}
+
+.display-4 {
+  margin-bottom: 1rem;
+}
+
+.display-4--title {
+  display: block;
+  font-weight: 500;
+}
+
+.display-4--description {
+  font-size: 1.5rem;
+  display: block;
+  color: white;
+  margin-top: 1.2rem;
+}
+
+.text {
+  direction: rtl;
+}
+
+.my-text li {
+  list-style-type: disc;
+  margin-bottom: .5rem;
+}
+
+.my-text li a {
+  text-decoration: none;
+  color: #6c757d;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+}
+
+.my-text li a:hover {
+  color: black;
+}
+
+.my-line {
+  position: relative;
+}
+
+.my-line::before {
+  content: " ";
+  position: absolute;
+  height: 111%;
+  width: 1px;
+  left: 0;
+  bottom: -5%;
+  background-color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .my-line::before {
+    display: none;
+  }
+}
+
+.bolet {
+  position: relative;
+}
+
+.bolet::before {
+  content: " ";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 100%;
+  bottom: -100%;
+  left: -1%;
+  background-color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .bolet::before {
+    display: none;
+  }
+}
+
+.intro-end {
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+}
+
+.intro-end .card {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.intro-end .card:hover {
+  -webkit-box-shadow: 0 0 6px 6px rgba(3, 110, 146, 0.5);
+          box-shadow: 0 0 6px 6px rgba(3, 110, 146, 0.5);
+}
+
+.intro-end h3 {
+  color: black;
+  font-weight: 200;
+  padding-bottom: 20px;
+  text-shadow: 0px 5px 5px black;
+  position: relative;
+}
+
+.intro-end h3::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+  width: 0px;
+  height: 1.5px;
+  background-color: white;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.intro-end h3:hover {
+  color: white;
+  font-weight: 300;
+}
+
+.intro-end h3:hover::after {
+  color: white;
+  width: 80px;
+}
